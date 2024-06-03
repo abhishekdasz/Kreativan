@@ -144,6 +144,7 @@
 {
     width: 460px;
     font-size: 14pt;
+    line-height: 1.875em;
 }
 .about-section .right-info p span:nth-child(1)
 {
