@@ -23,10 +23,14 @@
 }
 .navbar #active
 {
-    color: #00bbee;
+
     /* border-bottom: #00bbee solid; */
     display: flex;
     flex-direction: column;
+}
+.navbar #active p 
+{
+    color: #00bbee;
 }
 .navbar #active .underline
 {
@@ -59,7 +63,7 @@
 }
 .logo img
 {
-    width: 240px;
+    width: 260px;
 }
 
 
@@ -86,10 +90,13 @@
 .regd-btn
 {
     background-color: blue;
-    color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
     font-size: smaller;
+}
+.regd-btn p 
+{
+    color: #fff;
 }
 
 
@@ -110,7 +117,8 @@
 {
     max-width: 1200px;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
 }
 .hero-section .website-headline h1
 {
@@ -119,34 +127,88 @@
 }
 
 
+
+
+
+
 .about-section
 {
     background-color: #F2F5FA;
     display: flex;
     justify-content: center;
+}
+.about-container
+{
+    max-width: 1200px;
+
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 5rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
 
 }
-.about-section .left-img
+.about-container .left-img
 {
     flex: 1;
-    padding: 10rem;
+    /* margin-top: 10rem; */
 }
-.about-section .left-img img
+.about-container .left-img img
 {
     height: 500px;
+    border-radius: 0px 0px 0px 60px;
 }
-.about-section .right-info
+.about-container .right-info
 {
     flex: 1;
 }
-.about-section .right-info p 
+.about-container .right-info p 
 {
-    width: 460px;
+    width: 510px;
     font-size: 14pt;
     line-height: 1.875em;
 }
-.about-section .right-info p span:nth-child(1)
+.about-container .right-info p span:nth-child(1)
 {
     margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.domain-section
+{
+    background-color: #F2F5FA;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.domain-container
+{
+    width: 1200px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13.5rem;
+}
+.domain-container img 
+{
+    width: 120px;
+    opacity: 0.4;
+    transition: filter 0.3s ease; 
+}
+.domain-container img:hover 
+{
+    opacity: 1;
+    filter: brightness(100%);
+    cursor: pointer;
 }
