@@ -2,6 +2,8 @@
 {
     padding: 0;
     margin: 0;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: #1f2531;
 }
 .navbar
 {
@@ -38,6 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 .dropdown
 {
@@ -52,6 +55,7 @@
 {
     -webkit-filter: invert(100%);
     filter: invert(100%);
+    width: 25px;
 }
 .logo img
 {
@@ -86,4 +90,42 @@
     padding: 15px 30px;
     border-radius: 5px;
     font-size: smaller;
+}
+
+
+
+
+
+
+
+
+
+.hero-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .website-headline
+{
+    max-width: 1200px;
+    text-align: center;
+    margin-top: 6rem;
+}
+.hero-section .website-headline h1
+{
+    font-size: 40px;
+    line-height: 1.25em;
+}
+
+
+.about-section
+{
+    background-color: #F2F5FA;
+    display: flex;
+
+}
+.about-section img 
+{
+    height: 600px;
 }
