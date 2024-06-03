@@ -10,7 +10,6 @@
     display: flex;
     gap: 2.5rem;
     justify-content: space-between;
-    align-items: center;
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 13px;
     line-height: 1.5em;
@@ -24,7 +23,6 @@
 .navbar #active
 {
 
-    /* border-bottom: #00bbee solid; */
     display: flex;
     flex-direction: column;
 }
@@ -76,7 +74,13 @@
 
 .middle-navbar
 {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-navbar .navbar p:hover
+{
+    color: #00bbee;
 }
 
 
